@@ -1,85 +1,106 @@
-
 const data = [
   {
-    question: "What is the real name of Iron Man?",
-    option1: "Steve Rogers",
-    option2: "Tony Stark",
-    option3: "Bruce Banner",
-    option4: "Stephen Strange",
+    question: "What is the main purpose of a firewall?",
+    options: [
+      "To store website passwords",
+      "To scan for viruses",
+      "To block unauthorized access",
+      "To back up data"
+    ],
     answer: 2
   },
   {
-    question: "Which Infinity Stone does Vision have on his forehead?",
-    option1: "Time Stone",
-    option2: "Power Stone",
-    option3: "Mind Stone",
-    option4: "Soul Stone",
-    answer: 3
-  },
-  {
-    question: "Who is the sister of T’Challa in Black Panther?",
-    option1: "Okoye",
-    option2: "Shuri",
-    option3: "Nakia",
-    option4: "Ramonda",
+    question: "Which of the following is a strong password?",
+    options: [
+      "password123",
+      "admin2020",
+      "Qx$7!lB@9",
+      "letmein"
+    ],
     answer: 2
   },
   {
-    question: "What is Captain America's shield made of?",
-    option1: "Adamantium",
-    option2: "Titanium",
-    option3: "Uru",
-    option4: "Vibranium",
-    answer: 4
+    question: "What does VPN stand for?",
+    options: [
+      "Virtual Private Network",
+      "Very Protected Node",
+      "Verified Protocol Network",
+      "Virtual Protocol Net"
+    ],
+    answer: 0
   },
   {
-    question: "What is the name of Thor’s hammer?",
-    option1: "Stormbreaker",
-    option2: "Gungnir",
-    option3: "Mjolnir",
-    option4: "Necrosword",
-    answer: 3
+    question: "Which one is a form of social engineering?",
+    options: [
+      "Phishing",
+      "SQL Injection",
+      "DDoS Attack",
+      "Firewall breach"
+    ],
+    answer: 0
   },
   {
-    question: "Who is the main villain in Avengers: Infinity War?",
-    option1: "Ultron",
-    option2: "Loki",
-    option3: "Thanos",
-    option4: "Red Skull",
-    answer: 3
-  },
-  {
-    question: "Which character turns into the Hulk?",
-    option1: "Bruce Banner",
-    option2: "Peter Parker",
-    option3: "Tony Stark",
-    option4: "Stephen Strange",
+    question: "Which port does HTTP typically use?",
+    options: [
+      "21",
+      "80",
+      "443",
+      "8080"
+    ],
     answer: 1
   },
   {
-    question: "What metal is injected into Wolverine’s skeleton?",
-    option1: "Vibranium",
-    option2: "Steel",
-    option3: "Adamantium",
-    option4: "Carbonadium",
-    answer: 3
-  },
-  {
-    question: "What is the name of Peter Quill’s alter ego?",
-    option1: "Nova",
-    option2: "Star-Lord",
-    option3: "Rocket",
-    option4: "Drax",
+    question: "Which of these is NOT an operating system?",
+    options: [
+      "Linux",
+      "MacOS",
+      "Oracle",
+      "Windows"
+    ],
     answer: 2
   },
   {
-    question: "Who sacrificed herself for the Soul Stone in Endgame?",
-    option1: "Gamora",
-    option2: "Scarlet Witch",
-    option3: "Nebula",
-    option4: "Black Widow",
-    answer: 4
+    question: "What is the main goal of a DDoS attack?",
+    options: [
+      "Steal passwords",
+      "Redirect web traffic",
+      "Crash a system by flooding it",
+      "Encrypt user files"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which file extension is most likely to be dangerous?",
+    options: [
+      ".jpg",
+      ".mp3",
+      ".exe",
+      ".txt"
+    ],
+    answer: 2
+  },
+  {
+    question: "What does 2FA stand for in cybersecurity?",
+    options: [
+      "Two File Access",
+      "Two-Factor Authentication",
+      "File Format Authorization",
+      "Fast Firewall Access"
+    ],
+    answer: 1
+  },
+  {
+    question: "What does 'https://' indicate about a website?",
+    options: [
+      "It uses cookies",
+      "It’s hosted in Europe",
+      "It is secure and encrypted",
+      "It’s blocked in some countries"
+    ],
+    answer: 2
   }
+];
+
 ];
 
 export default data;
