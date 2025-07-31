@@ -1,85 +1,85 @@
+
 const data = [
   {
-    question: "What is the main purpose of a firewall?",
-    option1: "To store website passwords",
-    option2: "To scan for viruses",
-    option3: "To block unauthorized access",
-    option4: "To back up data",
-    answer: 3  // "To block unauthorized access" (originally index 2, now 3)
+    question: "What is the real name of Iron Man?",
+    option1: "Steve Rogers",
+    option2: "Tony Stark",
+    option3: "Bruce Banner",
+    option4: "Stephen Strange",
+    answer: 2
   },
   {
-    question: "Which of the following is a strong password?",
-    option1: "password123",
-    option2: "admin2020",
-    option3: "Qx$7!lB@9",
-    option4: "letmein",
-    answer: 3  // "Qx$7!lB@9" (originally index 2, now 3)
+    question: "Which Infinity Stone does Vision have on his forehead?",
+    option1: "Time Stone",
+    option2: "Power Stone",
+    option3: "Mind Stone",
+    option4: "Soul Stone",
+    answer: 3
   },
   {
-    question: "What does VPN stand for?",
-    option1: "Virtual Private Network",
-    option2: "Very Protected Node",
-    option3: "Verified Protocol Network",
-    option4: "Virtual Protocol Net",
-    answer: 1  // "Virtual Private Network" (originally index 0, now 1)
+    question: "Who is the sister of T’Challa in Black Panther?",
+    option1: "Okoye",
+    option2: "Shuri",
+    option3: "Nakia",
+    option4: "Ramonda",
+    answer: 2
   },
   {
-    question: "Which one is a form of social engineering?",
-    option1: "Phishing",
-    option2: "SQL Injection",
-    option3: "DDoS Attack",
-    option4: "Firewall breach",
-    answer: 1  // "Phishing" (originally index 0, now 1)
+    question: "What is Captain America's shield made of?",
+    option1: "Adamantium",
+    option2: "Titanium",
+    option3: "Uru",
+    option4: "Vibranium",
+    answer: 4
   },
   {
-    question: "Which port does HTTP typically use?",
-    option1: "21",
-    option2: "80",
-    option3: "443",
-    option4: "8080",
-    answer: 2  // "80" (originally index 1, now 2)
+    question: "What is the name of Thor’s hammer?",
+    option1: "Stormbreaker",
+    option2: "Gungnir",
+    option3: "Mjolnir",
+    option4: "Necrosword",
+    answer: 3
   },
   {
-    question: "Which of these is NOT an operating system?",
-    option1: "Linux",
-    option2: "MacOS",
-    option3: "Oracle",
-    option4: "Windows",
-    answer: 3  // "Oracle" (originally index 2, now 3)
+    question: "Who is the main villain in Avengers: Infinity War?",
+    option1: "Ultron",
+    option2: "Loki",
+    option3: "Thanos",
+    option4: "Red Skull",
+    answer: 3
   },
   {
-    question: "What is the main goal of a DDoS attack?",
-    option1: "Steal passwords",
-    option2: "Redirect web traffic",
-    option3: "Crash a system by flooding it",
-    option4: "Encrypt user files",
-    answer: 3  // "Crash a system by flooding it" (originally index 2, now 3)
+    question: "Which character turns into the Hulk?",
+    option1: "Bruce Banner",
+    option2: "Peter Parker",
+    option3: "Tony Stark",
+    option4: "Stephen Strange",
+    answer: 1
   },
   {
-    question: "Which file extension is most likely to be dangerous?",
-    option1: ".jpg",
-    option2: ".mp3",
-    option3: ".exe",
-    option4: ".txt",
-    answer: 3  // ".exe" (originally index 2, now 3)
+    question: "What metal is injected into Wolverine’s skeleton?",
+    option1: "Vibranium",
+    option2: "Steel",
+    option3: "Adamantium",
+    option4: "Carbonadium",
+    answer: 3
   },
   {
-    question: "What does 2FA stand for in cybersecurity?",
-    option1: "Two File Access",
-    option2: "Two-Factor Authentication",
-    option3: "File Format Authorization",
-    option4: "Fast Firewall Access",
-    answer: 2  // "Two-Factor Authentication" (originally index 1, now 2)
+    question: "What is the name of Peter Quill’s alter ego?",
+    option1: "Nova",
+    option2: "Star-Lord",
+    option3: "Rocket",
+    option4: "Drax",
+    answer: 2
   },
   {
-    question: "What does 'https://' indicate about a website?",
-    option1: "It uses cookies",
-    option2: "It’s hosted in Europe",
-    option3: "It is secure and encrypted",
-    option4: "It’s blocked in some countries",
-    answer: 3  // "It is secure and encrypted" (originally index 2, now 3)
+    question: "Who sacrificed herself for the Soul Stone in Endgame?",
+    option1: "Gamora",
+    option2: "Scarlet Witch",
+    option3: "Nebula",
+    option4: "Black Widow",
+    answer: 4
   }
 ];
-
 
 export default data;
