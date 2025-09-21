@@ -1,8 +1,12 @@
+
 .container{
     width : 640px ; 
     margin :auto ;
-    margin-top: 140px;
-    background-color: white;
+    margin-top: 40px;
+    
+    background-image:linear-gradient(#e1fb6aef,#b724c1f1); ;      /*background-image: url('./avengers.jpg');  <-- Corrected */
+  /*  background-size: cover; 
+    background-position: center; */
     color : #262626;
     display : flex;
     flex-direction :column;
@@ -29,19 +33,20 @@
     align-items : center ; 
     height : 70px ; 
     padding-left: 15px;
-    border: 1px solid #686868 ;
+    border: 1px solid #c117eb ;
     border-radius: 8px;
     margin-bottom: 20px;
     font-size: 20px;
     cursor : pointer;
+    background-color: rgb(209, 231, 136);
 
 }
 .container button {
     margin : auto ; 
     width: 250px ;
     height : 65px ; 
-    background : #553f9a;
-    color : #fff; 
+    background : #463185;
+    color : rgba(177, 24, 185, 0.923); 
     font-size: 25px;
     font-weight: 500;
     border-radius: 8px;
@@ -56,11 +61,11 @@
 }
 
 .container .correct{ 
-    background: #dffff2;
-    border-color: #00d397;
+    background: #0ac67b;
+    border-color: #04fb21;
 }
 .container .wrong{
-    background: #ffe6e6;
-    border-color: #ff4a4a;
+    background: #fa6705;
+    border-color: #f40202;
 
 }
